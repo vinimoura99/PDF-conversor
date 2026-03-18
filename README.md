@@ -1,5 +1,3 @@
-Got it. Here is the full version in **English**, maintaining your exact layout, structure, and formatting style.
-
 ---
 
 # 🤖 PDF Data Automation System (Pro Version)
