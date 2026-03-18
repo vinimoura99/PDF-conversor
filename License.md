@@ -1,19 +1,12 @@
-TERMOS DE USO E LICENÇA INTERNA (MIT MODIFICADA)
+---
 
-Copyright (c) 2026 Vinicius Moura
+## 📜 License (Terms of Use)
 
-1. AUTORIZAÇÃO:
-É concedida permissão à empresa e seus colaboradores para utilizar, copiar e modificar este software para fins internos de processamento de dados.
+This software is provided "as is," without warranty of any kind, express or implied.
 
-2. ISENÇÃO DE RESPONSABILIDADE:
-O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO. 
-O DESENVOLVEDOR NÃO SE RESPONSABILIZA POR:
-   - Erros de leitura causados por alterações no layout do PDF original.
-   - Perda de dados devido ao manuseio incorreto dos arquivos Excel.
-   - Decisões financeiras ou logísticas tomadas com base nos relatórios gerados.
+1. **Usage**: This tool is intended for professional data automation only. 
+2. **Distribution**: You are free to share the `.exe` file within your organization. 
+3. **Responsibility**: The developer is not responsible for data loss or incorrect data extraction caused by modified or non-standard PDF layouts.
+4. **Modifications**: Any changes to the source code for redistribution must maintain the original developer's credits.
 
-3. CONDIÇÕES:
-O processamento é feito localmente. Nenhuma informação de faturas, e-mails ou códigos de clientes é enviada para servidores externos ou nuvem. O desenvolvedor não retém cópia dos dados processados.
-
-4. LIMITAÇÃO:
-Em nenhuma circunstância o autor será responsável por quaisquer danos (incluindo, sem limitação, danos por perda de lucro comercial ou interrupção de negócios) decorrentes do uso ou da incapacidade de usar este software.
+---
