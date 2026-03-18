@@ -2,7 +2,7 @@
 
 # 📜 License (Terms of Use)
 
-This software is provided "as is," without warranty of any kind, express or implied.
+This software is provided as it is without warranty of any kind, express or implied.
 
 1. **Usage**: This tool is intended for professional data automation only.
 2. **Distribution**: You are free to share the `.exe` file within your organization.
