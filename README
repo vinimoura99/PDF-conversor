@@ -8,36 +8,15 @@ Este sistema foi desenvolvido para converter documentos PDF padronizados em rela
 
 1. **Preparação**: Certifique-se de que os arquivos PDF que deseja processar estão salvos no computador.
 2. **Execução**: Dê um duplo clique no arquivo `Conversor_Universal.exe`.
-3. **Seleção**: Uma janela se abrirá. Selecione todos os PDFs que deseja converter (pode selecionar vários de uma vez segurando a tecla CTRL).
+3. **Seleção**: Uma janela se abrirá. Selecione todos os PDFs que deseja converter (pode selecionar vários de uma vez segurando a tecla **CTRL**).
 4. **Resultado**: O programa criará uma pasta chamada `Relatorios_Gerados`. O Excel `RELATORIO_PROCESSAMENTO.xlsx` estará lá dentro com todos os dados extraídos, somados e estilizados.
 
 ---
 
-## 🛠️ Como Gerar o Executável (.exe) - Guia do Desenvolvedor
+## 🛠️ Guia do Desenvolvedor (Criação do .exe)
 
-Para criar o programa que as usuárias vão clicar, siga estes passos no seu terminal:
+Para criar o executável que as usuárias vão utilizar, siga estes passos no seu terminal:
 
-1. **Instale as bibliotecas necessárias**:
-   pip install pdfplumber openpyxl pyinstaller pywin32
-
-2. **Comando de Compilação (Otimizado para evitar bloqueio de Antivírus)**:
-   Use o comando abaixo dentro da pasta do projeto:
-   
-   python -m PyInstaller --onedir --noconsole --name "Conversor_Universal" Conversor_Universal_PDF.py
-
-   *Nota: O modo '--onedir' cria uma pasta em 'dist'. É mais seguro para PCs corporativos do que o modo de arquivo único, que muitas vezes é barrado pelo Windows Defender.*
-
----
-
-## ⚙️ Como Alterar as Regras do PDF (Configuração Genérica)
-
-No topo do arquivo `.py`, você encontrará o bloco "CONFIGURAÇÕES DO MODELO". 
-- Para mudar de fornecedor: Altere a lista `PALAVRAS_CHAVE_PRODUTO`.
-- Para novos códigos: Adicione no dicionário `TABELA_DE_PARA`.
-- Para mudar o formato da data: Ajuste a `REGEX_DATA`.
-
----
-
-## ⚠️ Observações Importantes
-- **Excel Aberto**: O programa não consegue salvar se o arquivo Excel de destino estiver aberto. Feche-o antes de rodar o robô.
-- **Localização**: Não execute o programa direto de um Pen Drive. Copie a pasta para o Disco Local (C:) ou Ambiente de Trabalho para garantir permissões de escrita.
+### 1. Instalar bibliotecas necessárias
+```bash
+pip install pdfplumber openpyxl pyinstaller pywin32
